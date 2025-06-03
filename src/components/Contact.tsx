@@ -37,7 +37,7 @@ const Contact: React.FC = () => {
       `;
 
       // Send the form data to the backend to send the email
-      const result = await fetch('http://localhost:5000/send-email', {
+      const result = await fetch('https://project-backend-4nuk4b1xb-godzisops-projects.vercel.app/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
