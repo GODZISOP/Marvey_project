@@ -10,9 +10,10 @@ const Services: React.FC = () => {
       title: 'Life Coaching Webinar',
       price: '$1,500',
       icon: <Users className="w-10 h-10 text-primary-600" />,
-      description: "I Know What's Right With Me: A Life Coaching Webinar for Self-Discovery & Empowerment. This dynamic, interactive experience will help you reconnect with your truth and break free from self-doubt.",
+      description: "I Know What's Right With Me: A Life Coaching Webinar for Self-Discovery & Empowerment.  This dynamic, interactive experience will help you reconnect with your truth and break free from self-doubt.",
       features: [
         'Interactive coaching experience',
+        'join us on June 21 at 5 PM Eastern Time',
         'Guided self-discovery tools',
         'Live Q&A and personalized insight',
         'Actionable strategies to apply immediately',

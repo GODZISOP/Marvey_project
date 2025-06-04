@@ -20,15 +20,19 @@ const Footer: React.FC = () => {
               Empowering individuals to reconnect with their truth, break free from self-doubt, and lead lives of clarity and purpose.
             </p>
             <div className="flex space-x-4">
-              <a href="https://facebook.com" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-primary-600 transition-colors">
-                <Facebook size={20} />
-              </a>
-              <a href="https://instagram.com" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-primary-600 transition-colors">
-                <Instagram size={20} />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-primary-600 transition-colors">
-                <Linkedin size={20} />
-              </a>
+         <a href="https://www.facebook.com/share/16kUGQ5qa6/?mibextid=wwXIfr" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-primary-600 transition-colors">
+  <Facebook size={20} />
+</a>
+<a href="https://www.instagram.com/drmarveyspeaks?igsh=MXhzdTF2bGppYmExYw==" target="_blank" rel="noreferrer" className="text-gray-500 hover:text-primary-600 transition-colors">
+  <Instagram size={20} />
+</a>
+
+<a href="mailto:drmspeakscoaching@gmail.com" className="text-gray-500 hover:text-primary-600 transition-colors">
+  <Mail size={20} />
+</a>
+
+
+
             </div>
           </div>
           

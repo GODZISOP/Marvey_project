@@ -21,9 +21,10 @@ const Webinar: React.FC = () => {
               <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
                 I Know What's Right With Me: <span className="text-primary-600">Identity & Purpose</span>
               </h1>
-              <p className="text-lg text-gray-700 mb-8 max-w-xl">
-                This is more than motivation — it's a life coaching experience built to transform how you see yourself. Reconnect with your truth, break free from self-doubt, and learn to lead your life with clarity.
-              </p>
+             <p className="text-lg text-gray-700 mb-8 max-w-xl">
+  This is more than motivation — it's a life coaching experience built to transform how you see yourself. Reconnect with your truth, break free from self-doubt, and learn to lead your life with clarity.<br />
+
+</p>
               
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center text-gray-700">
