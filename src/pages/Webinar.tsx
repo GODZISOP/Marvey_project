@@ -80,7 +80,7 @@ const Webinar: React.FC = () => {
               Webinar Details
             </span>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              What You'll Experience
+           I Know What\'s Right With Met:he June 21st 5pm Eastern is a Life Coaching Webinar for Self-Discovery & Empowerment
             </h2>
             <p className="text-lg text-gray-700">
               This dynamic, interactive webinar will give you practical tools and insights to transform how you see yourself and approach your life.

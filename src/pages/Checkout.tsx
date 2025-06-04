@@ -37,7 +37,7 @@ const Checkout: React.FC = () => {
         id: 'webinar',
         name: 'Life Coaching Webinar',
         price: 1500,
-        description: 'I Know What\'s Right With Me: A Life Coaching Webinar for Self-Discovery & Empowerment'
+        description: 'I Know What\'s Right With Met:he June 21st 5pm Eastern is a Life Coaching Webinar for Self-Discovery & Empowerment'
       },
       ebook: {
         id: 'ebook',
