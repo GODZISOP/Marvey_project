@@ -126,7 +126,7 @@ const Contact: React.FC = () => {
               id="subject"
               value={formData.subject}
               onChange={handleChange}
-              className="w-full px-4 py-3 border rounded-md border-gray-300 focus:ring-2 focus:ring-primary-500"
+              className="w-full px-4 py-3 border rounded-md border-gray-300 focus:ring-3 focus:ring-primary-500"
               placeholder="Subject of your message"
               required
             />
