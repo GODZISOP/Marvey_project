@@ -43,7 +43,7 @@ const Contact: React.FC = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          to: 'appointmentstudio1@gmail.com',  // Replace with actual recipient email
+          to: 'recipient@example.com',  // Replace with actual recipient email
           subject: `New Contact Form: ${formData.subject}`,
           html: emailHtml,
         }),
