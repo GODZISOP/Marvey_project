@@ -65,15 +65,14 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <Mail size={20} className="text-primary-600 mt-1 flex-shrink-0" />
-                <a href="mailto:contact@iknowwhatsrightw.me" className="text-gray-600 hover:text-primary-600 transition-colors">contact@iknowwhatsrightw.me</a>
+                <a href="mailto:drmspeakscoaching@gmail.com" className="text-gray-600 hover:text-primary-600 transition-colors">cdrmspeakscoaching@gmail.com</a>
               </li>
               <li className="flex items-start space-x-3">
                 <Phone size={20} className="text-primary-600 mt-1 flex-shrink-0" />
-                <a href="tel:+15551234567" className="text-gray-600 hover:text-primary-600 transition-colors">+1 (555) 123-4567</a>
+                <a href="tel:+15551234567" className="text-gray-600 hover:text-primary-600 transition-colors">+1 (973) 506-9036</a>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin size={20} className="text-primary-600 mt-1 flex-shrink-0" />
-                <span className="text-gray-600">123 Transformation Ave, Suite 101<br />Los Angeles, CA 90001</span>
               </li>
             </ul>
           </div>

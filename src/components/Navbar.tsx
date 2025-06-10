@@ -35,6 +35,9 @@ const Navbar: React.FC = () => {
           <Link to="/#contact" className="nav-link">
             Contact
           </Link>
+            <Link to="/about" className={isActive('/about')}>
+            About
+          </Link>
         </div>
         
         {/* CTA Button - Desktop Only */}

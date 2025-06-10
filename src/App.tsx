@@ -9,6 +9,7 @@ import Mentorship from './pages/Mentorship';
 import Checkout from './pages/Checkout';
 import ThankYou from './pages/ThankYou';
 import Layout from './components/Layout';
+import AboutMarvelous from './components/About';
 
 import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
@@ -21,7 +22,9 @@ function App() {
       <ToastContainer position="top-right" autoClose={5000} />
       <Routes>
         <Route path="/" element={<Home />} />
+        
         <Route path="/webinar" element={<Webinar />} />
+        <Route path="/about" element={<AboutMarvelous />} />
         <Route path="/ebook" element={<Ebook />} />
         <Route path="/mentorship" element={<Mentorship />} />
         <Route
