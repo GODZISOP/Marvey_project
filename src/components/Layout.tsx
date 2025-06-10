@@ -72,6 +72,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <Link to="/ebook" className="text-2xl font-semibold" onClick={toggleMenu}>eBook</Link>
               <Link to="/mentorship" className="text-2xl font-semibold" onClick={toggleMenu}>Mentorship</Link>
               <Link to="/#contact" className="text-2xl font-semibold" onClick={toggleMenu}>Contact</Link>
+              <Link to="/about" className="text-2xl font-semibold" onClick={toggleMenu}>About</Link>
               <button className="btn btn-accent mt-6">Start Your Journey</button>
             </div>
           </motion.div>
